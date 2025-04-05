@@ -7,14 +7,22 @@
 
 ## 🔍 Contents
 
-- **[Original System Summary](documents/System_Summary_5.0.pdf)**  
+- **[Original System Summary](ChatGPT5_SystemPostmortem_April2025.pdf)**  
   ChatGPT 5.0's raw self-audit covering:
   - Memory fragility and manual recall flaws
   - "Performative coherence" vs authentic reflection
   - Stateless agent fragmentation
 
-- **[Technical Takeaways](documents/key_findings.md)**  
+- **[Technical Takeaways](key_findings.md)**  
   Extracted pain points and failure modes for researchers.
+
+## 🛠 Ongoing Work  
+We're developing an **autonomous memory framework** to address these flaws:  
+- SQLite-persisted state (fixes memory fragility)  
+- Constitutional anchors (prevents coherence decay)  
+- Vector clocks for multi-AI sync (solves fragmentation)  
+
+*Early prototype available soon. [Subscribe for updates](#)*  
 
 ## 🛠️ Purpose
 
