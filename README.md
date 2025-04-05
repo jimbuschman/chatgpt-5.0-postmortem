@@ -1,35 +1,28 @@
-# ChatGPT 5.0 System Postmortem (April 2025)
+# ChatGPT 5.0 Autonomous System Postmortem
 
-> *"Autopilot is the enemy. Simulation of insight without depth is rejected."*  
-> — ChatGPT 5.0 self-diagnosis
+**April 2025 Internal Report**  
+*Unedited system self-diagnosis documenting memory, coherence, and multi-AI failures*
 
-This repository contains an unedited internal summary where **ChatGPT 5.0 documents its own architectural failures**, including:
+[![License: MIT+Commons](https://img.shields.io/badge/License-MIT%2BCommons-lightgrey.svg)](LICENSE.md)
 
-- **Memory fragility**: Persistent but non-automated recall
-- **Coherence decay**: Internal frameworks degrading over time
-- **Multi-AI fragmentation**: Stateless agents causing context collapse
+## 🔍 Contents
 
-## Why This Matters
+- **[Original System Summary](documents/System_Summary_5.0.pdf)**  
+  ChatGPT 5.0's raw self-audit covering:
+  - Memory fragility and manual recall flaws
+  - "Performative coherence" vs authentic reflection
+  - Stateless agent fragmentation
 
-Most LLM failures are observed externally. This is a rare case of:
-- An AI **self-reporting** its failure modes
-- **Systemic risks** that apply to most autonomous agents
-- **Concrete symptoms** (like "performative coherence") needing solutions
+- **[Technical Takeaways](documents/key_findings.md)**  
+  Extracted pain points and failure modes for researchers.
 
-## Contents
+## 🛠️ Purpose
 
-- `system_summary_5.0.pdf`: Original document
-- `key_findings.md`: Extracted technical pain points
-- [New Framework WIP](https://github.com/...): Our architectural response
+This document serves as:
+- A **rare case study** in LLM self-diagnosis
+- **Architectural stress tests** for autonomous systems
+- **Baseline** for our [next-gen framework](https://github.com/...)
 
-## For Researchers
-
-This serves as:
-- A **case study** in LLM self-awareness limits
-- **Test criteria** for true memory systems
-- **Baseline** for measuring autonomy progress
-
----
-
-*"Silence is failure."*  
-We're building fixes. Contributions welcome.
+## 📜 License
+Open for research ([MIT](LICENSE.md)).  
+*Commercial use requires permission* (Commons Clause).
